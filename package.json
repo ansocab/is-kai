@@ -1,5 +1,5 @@
 {
-  "name": "test-browser-package",
+  "name": "npm package template",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
