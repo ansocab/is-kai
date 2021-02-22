@@ -1,13 +1,16 @@
 {
-  "name": "npm package template",
-  "version": "1.0.0",
+  "name": "is-kai",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "prepublish": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "kaios",
+    "device"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

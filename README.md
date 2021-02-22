@@ -1,11 +1,13 @@
-# template for es6 module packages
+# detect if on KaiOS device
 
-## (works with react, angular etc.)
+is-kai will tell you if the device is a KaiOS device
 
-the package.json "name" will be used as your npm package name.
+Usage:
 
-To publish your package:
+```
+import isKai from "is-kai"
 
-`npm login`
-
-`npm publish`
+if (isKai) {
+    console.log("We're in kai!")
+}
+```
